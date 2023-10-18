@@ -1,1 +1,2 @@
 # mail_merge
+The starting_letter.txt file contains the letter template to send to the people, invited_names.txt file contains the names to whom we need to send the letter. The main.py will replace the [name] in letter.txt to each names present in the invited_names.txt file. The main focus is to understand the using of file structure and methods, and the use of replace(), readlines() and strip() methods. At the end, a text file will be created for every name which contains the letter in that name.
